@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "experimentalDecorators": true,
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "module": "commonjs",
+    "target": "esnext",
+    "lib": ["dom", "esnext"],
+    "jsx": "react",
+    "paths": {
+      "components/*": ["app/components/*"],
+      "scenes/*": ["app/scenes/*"],
+      "stores/*": ["app/stores/*"],
+      "helpers/*": ["app/helpers/*"],
+      "api/*": ["app/api/*"],
+      "types": ["app/types"]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": ["src/*"]
+}
