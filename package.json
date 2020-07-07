@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
-    "electron": "^5.0.7",
+    "electron": "^7.2.4",
     "mobx": "^5.13.0",
     "mobx-react-lite": "^1.4.1",
     "react": "^16.8.6",
